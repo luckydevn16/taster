@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taster</title>
+    <link rel="shortcut icon" href="assets/favicon.PNG">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <nav class="main-nav">
+            <div class="main-nav-item first">Who we are</div>
+            <div class="main-nav-item second">Our brands</div>
+            <div class="main-nav-item third">Contact</div>
+        </nav>
+        <div class="menu-btn" onclick="mobileMenuOpening()">
+            MENU
+            <div class="menu-btn-arrow"></div>
+        </div>
+        <main class="main">
+            <header class="header">
+                <div class="logo-wrapper">
+                    <img src="assets/logo.png" alt="logo" class="logo-img">
+                </div>
+                <div class="apps-wrapper">
+                    <img src="assets/apps.png" alt="apps" class="apps-img">
+                </div>
+                <div class="language-wrapper">
+                    <ul class="languages-list">
+                        <li class="languages-list-item en">EN</li>
+                        <li class="languages-list-item es">ES</li>
+                        <li class="languages-list-item fr">FR</li>
+                    </ul>
+                </div>
+            </header>
+            <section class="section-join">
+                <h2 class="secondary-heading">
+                    Restaurateur? Join the Taster Platform and rapidly launch one of our iconic virtual restaurant brands from your existing kitchen!
+                </h2>
+                <div class="join-btns-wrapper">
+                    <button class="btn btn1" onclick="openModal()">Become a partner</button>
+                    <button class="btn btn2" onclick="openModal()">Learn more</button>
+                </div>
+            </section>
+            <section class="section-hero">
+                <div class="section-hero-content">
+                    <h1 class="main-heading">
+                        The best of street food at home
+                    </h1>
+                    <p class="hero-descr">
+                        Taster is a collection of online restaurants dedicated to bringing the best of street food to you.
+                    </p>
+                    <div class="hero-discover">
+                        Discover our brands
+                    </div>
+                </div>
+                <div class="section-hero-img-wrapper">
+                    <img src="assets/red-plate.png" alt="plate with food" class="hero-img">
+                </div>
+            </section>
+            <section class="section-picture"></section>
+            <section class="section-stats">
+                <h2 class="section-heading">
+                    Bitesize Stats
+                </h2>
+                <div class="stats-wrapper">
+                    <div class="stats-card">
+                        <img src="assets/list.png" alt="list" class="stats-card-img">
+                        <p class="stats-card-descr card-01-descr">4<br> Years</p>
+                    </div>
+                    <div class="stats-card">
+                        <img src="assets/cheese.png" alt="cheese" class="stats-card-img">
+                        <p class="stats-card-descr  card-02-descr">425,364<br> Cheese Slices</p>
+                    </div>
+                    <div class="stats-card">
+                        <img src="assets/potato-free.png" alt="potato-free" class="stats-card-img">
+                        <p class="stats-card-descr card-03-descr">9.2 million<br> Fries</p>
+                    </div>
+                    <div class="stats-card">
+                        <img src="assets/soup.png" alt="soup" class="stats-card-img">
+                        <p class="stats-card-descr card-04-descr">7,104 kms<br> of Noodles</p>
+                    </div>
+                    <div class="stats-card">
+                        <img src="assets/shrim.png" alt="shrim" class="stats-card-img">
+                        <p class="stats-card-descr card-05-descr">314,530<br> Tiger Prawns</p>
+                    </div>
+                    <div class="stats-card">
+                        <img src="assets/scooter.png" alt="scooter" class="stats-card-img">
+                        <p class="stats-card-descr card-06-descr">1,000,000+<br> Rides</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section-achievments">
+                <ul class="achievments-list">
+                    <li class="achievments-list-item achieve-01">100 Restaurants</li>
+                    <li class="achievments-list-item achieve-02">25 Cities</li>
+                    <li class="achievments-list-item achieve-03">5 Brands</li>
+                    <li class="achievments-list-item achieve-04">And More!</li>
+                </ul>
+            </section>
+            <footer class="footer">
+                <div class="footer-part">
+                    <h3 class="footer-part-heading footer-heading-01">Our restaurants</h3>
+                    <ul class="footer-part-links-list">
+                        <li class="footer-part-link">Bian Dang</li>
+                        <li class="footer-part-link">A Burgers</li>
+                        <li class="footer-part-link">Mission Saigon</li>
+                        <li class="footer-part-link">Out Fry</li>
+                        <li class="footer-part-link">Stacksando</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h3 class="footer-part-heading footer-heading-02">Find us</h3>
+                    <ul class="footer-part-links-list">
+                        <h4 class="footer-part-subheading">Address</h4>
+                        <li class="footer-part-link">Sorry, we’re just a digital food court</li> 
+                        <br>
+                        <h4 class="footer-part-subheading">Order on</h4>
+                        <li class="footer-part-link">Download on Android</li>
+                        <li class="footer-part-link">Download on iOS</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h3 class="footer-part-heading footer-heading-03">Corporate</h3>
+                    <ul class="footer-part-links-list">
+                        <li class="footer-part-link">Contact</li>
+                        <li class="footer-part-link">Our Story</li>
+                        <li class="footer-part-link">Jobs</li>
+                        <li class="footer-part-link">Support</li>
+                    </ul>
+                </div>
+                <div class="footer-part">
+                    <h3 class="footer-part-heading footer-heading-04">Socials</h3>
+                    <ul class="footer-part-links-list">
+                        <li class="footer-part-link">Instagram</li>
+                        <li class="footer-part-link">Facebook</li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+        <div class="modal-window" id="modalFormWindow">
+            <div class="modal-window-content">
+                <h3 class="modal-form-heading">Please enter your contacts</h3>
+                <form action="thankyou.html" class="modal-form" onsubmit="event.preventDefault(); formSubmission()">
+                    <input type="text" class="modal-form-input name" placeholder="Your Firstname">
+                    <input type="text" class="modal-form-input lastname" placeholder="Your Secondname">
+                    <input type="text" class="modal-form-input email" placeholder="Your Email">
+                    <div class="required-fields">
+                        Please fill in all the fields
+                    </div>
+                    <button class="btn form-btn">Send</button>
+                </form>
+            </div>
+            <div class="modal-thankyou-content">
+                <h3 class="modal-form-heading">Thank you for registration!</h3>
+                <p class="hero-descr">We will contact you soon to give you an advise :)</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/main.js"></script>
+    <script src="assets/lang.js"></script>
+</body>
+</html>
